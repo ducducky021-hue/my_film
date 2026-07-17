@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Video Giới Thiệu Mẫu",
+    "category": "Hành động",
+    "thumbnail": "https://picsum.photos/400/225",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "description": "Đây là video mẫu để test trình phát phim của bạn. Bạn có thể thay bằng link phim khác."
+  },
+  {
+    "id": 2,
+    "title": "Phim hoạt hình Big Buck Bunny",
+    "category": "Hoạt hình",
+    "thumbnail": "https://picsum.photos/400/225?random=1",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "description": "Một bộ phim hoạt hình kinh điển mã nguồn mở dùng để test chất lượng streaming."
+  }
+]
