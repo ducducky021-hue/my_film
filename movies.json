@@ -14,5 +14,13 @@
     "thumbnail": "https://picsum.photos/400/225?random=1",
     "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     "description": "Một bộ phim hoạt hình kinh điển mã nguồn mở dùng để test chất lượng streaming."
+  },
+  {
+    "id": 3,
+    "title": "banh mi ram ram",
+    "category": "Kinh dị",
+    "thumbnail": "4.jpg",
+    "videoUrl": "heheheh.mp4",
+    "description": "đơn giản chỉ là ăn"
   }
 ]
