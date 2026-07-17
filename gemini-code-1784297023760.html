@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trạm Chiếu Phim Của Tôi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header điều hướng -->
+    <header>
+        <div class="logo">🍿 MyCinema</div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Tìm tên phim...">
+        </div>
+    </header>
+
+    <!-- Khu vực xem phim (Trình phát phim) -->
+    <main>
+        <section class="player-section" id="playerSection" style="display: none;">
+            <div class="player-container">
+                <video id="videoPlayer" controls autoplay></video>
+                <button class="close-btn" onclick="closePlayer()">Đóng Trình Phát ✕</button>
+            </div>
+            <h2 id="playingTitle" class="playing-title">Tên Phim Đang Phát</h2>
+            <p id="playingDesc" class="playing-desc">Mô tả chi tiết phim...</p>
+            <hr>
+        </section>
+
+        <!-- Danh sách phim -->
+        <section class="catalog-section">
+            <h2 class="section-title">Kho Phim Đã Cập Nhật</h2>
+            <div class="movie-grid" id="movieGrid">
+                <!-- Javascript sẽ tự đổ phim vào đây -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Trang web phim cá nhân - Quản trị bởi Admin</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
