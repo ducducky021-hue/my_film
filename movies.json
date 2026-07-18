@@ -14,5 +14,18 @@
     "thumbnail": "https://i.postimg.cc/yNjfmKSD/nobita-va-nc-nhat-nguyen-thuy.jpg",
     "videoUrl": "https://www.dropbox.com/scl/fi/739yeadfpuc4uuojvus31/YTDown.com_YouTube_Doraemon-va-Nobita-Nuoc-Nhat-Thoi-Nguyen_Media_Sp6U-jSULkc_001_720p.mp4?rlkey=6iar6b6pbd1jotlsruqnmaxun&st=4faty7yz&dl=1",
     "description": "Cuộc hành trình của nhóm bạn Doraemon phiêu lưu về nước Nhật thời nguyên thuỷ"
+  },
+  {
+    "id": 3,
+    "title": "Bánh Mì Ram Ram (Phim Bộ)",
+    "category": "Kinh dị",
+    "thumbnail": "https://i.postimg.cc/NMNPSRDC/cutee.jpg",
+    "description": "Đây là phim bộ nhiều tập. Bạn thêm dòng isSeries: true và khai báo danh sách tập.",
+    "isSeries": true,
+    "episodes": [
+      { "episodeNum": 1, "url": "https://dl.dropboxusercontent.com/scl/fi/g8fe1edxqbzo3a9652a31/heheheh.mp4" },
+      { "episodeNum": 2, "url": "https://dl.dropboxusercontent.com/scl/fi/g8fe1edxqbzo3a9652a31/heheheh.mp4" },
+      { "episodeNum": 3, "url": "https://dl.dropboxusercontent.com/scl/fi/g8fe1edxqbzo3a9652a31/heheheh.mp4" }
+    ]
   }
 ]
