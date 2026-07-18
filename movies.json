@@ -9,22 +9,6 @@
   },
   {
     "id": 2,
-    "title": "Phim hoạt hình Big Buck Bunny",
-    "category": "Hoạt hình",
-    "thumbnail": "https://picsum.photos/400/225?random=1",
-    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-    "description": "Một bộ phim hoạt hình kinh điển mã nguồn mở dùng để test chất lượng streaming."
-  },
-  {
-    "id": 3,
-    "title": "banh mi ram ram",
-    "category": "Kinh dị",
-    "thumbnail": "https://i.postimg.cc/NMNPSRDC/cutee.jpg",
-    "videoUrl": "https://www.dropbox.com/scl/fi/g8fe1edxqbzo3a9652a31/heheheh.mp4?rlkey=yjvyksxad4oe58hqhktvwctli&st=tox5q5qn&dl=1",
-    "description": "đơn giản chỉ là ăn"
-  },
-  {
-    "id": 4,
     "title": "Nobita và nước Nhật thời nguyên thuỷ",
     "category": "Hoạt hình",
     "thumbnail": "https://i.postimg.cc/yNjfmKSD/nobita-va-nc-nhat-nguyen-thuy.jpg",
