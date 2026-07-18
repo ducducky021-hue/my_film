@@ -56,6 +56,30 @@ function playMovie(movie) {
     const playingTitle = document.getElementById('playingTitle');
     const playingDesc = document.getElementById('playingDesc');
 
+    // TỰ ĐỘNG TẠO Ô HIỂN THỊ LƯỢT XEM RIÊNG CỦA PHIM
+    let viewCounter = document.getElementById('movieViewCounter');
+    if (!viewCounter) {
+        viewCounter = document.createElement('p');
+        viewCounter.id = 'movieViewCounter';
+        viewCounter.style.color = '#e76f51';
+        viewCounter.style.fontSize = '14px';
+        viewCounter.style.fontWeight = 'bold';
+        viewCounter.style.margin = '5px 0 10px 0';
+        playingTitle.parentNode.insertBefore(viewCounter, playingTitle.nextSibling);
+    }
+    viewCounter.innerText = "👁️ Đang tải lượt xem...";
+
+    // Tăng và lấy lượt xem từ hệ thống CountAPI dựa trên ID của phim
+    const movieKey = `ducducky021_movie_${movie.id}`;
+    fetch(`https://api.countapi.xyz/hit/myfilm_counter/${movieKey}`)
+        .then(res => res.json())
+        .then(data => {
+            viewCounter.innerText = `👁️ ${data.value.toLocaleString()} lượt xem`;
+        })
+        .catch(() => {
+            viewCounter.innerText = `👁️ Lượt xem: Đang cập nhật`;
+        });
+
     // Tìm hoặc tự động tạo khu vực chứa nút chọn tập ngay dưới phần mô tả
     let episodeContainer = document.getElementById('episodeContainer');
     if (!episodeContainer) {
@@ -80,7 +104,7 @@ function playMovie(movie) {
             const btn = document.createElement('button');
             btn.innerText = `Tập ${ep.episodeNum}`;
             btn.style.padding = '8px 16px';
-            btn.style.backgroundColor = index === 0 ? '#e76f51' : '#333'; // Tập đang phát sẽ có màu nổi bật
+            btn.style.backgroundColor = index === 0 ? '#e76f51' : '#333'; 
             btn.style.color = '#fff';
             btn.style.border = 'none';
             btn.style.borderRadius = '4px';
@@ -88,11 +112,9 @@ function playMovie(movie) {
             btn.style.fontWeight = 'bold';
 
             btn.onclick = () => {
-                // Đổi video sang tập được chọn
                 videoPlayer.src = ep.url;
                 playingTitle.innerText = `${movie.title} (Tập ${ep.episodeNum})`;
                 
-                // Cập nhật lại màu sắc của các nút tập phim
                 const allButtons = episodeContainer.querySelectorAll('button');
                 allButtons.forEach(b => b.style.backgroundColor = '#333');
                 btn.style.backgroundColor = '#e76f51'; 
