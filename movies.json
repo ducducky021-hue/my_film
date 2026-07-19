@@ -1,15 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Video Giới Thiệu Mẫu",
-    "category": "Hành động",
-    "thumbnail": "https://picsum.photos/400/225",
-    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
-    "description": "Đây là video mẫu để test trình phát phim của bạn. Bạn có thể thay bằng link phim khác."
-  },
-  {
-    "id": 2,
-    "title": "Nobita và nước Nhật thời nguyên thuỷ",
+    "title": "Doraemon: Nobita và nước Nhật thời nguyên thuỷ",
     "category": "Hoạt hình",
     "thumbnail": "https://i.postimg.cc/yNjfmKSD/nobita-va-nc-nhat-nguyen-thuy.jpg",
     "videoUrl": "https://www.dropbox.com/scl/fi/739yeadfpuc4uuojvus31/YTDown.com_YouTube_Doraemon-va-Nobita-Nuoc-Nhat-Thoi-Nguyen_Media_Sp6U-jSULkc_001_720p.mp4?rlkey=6iar6b6pbd1jotlsruqnmaxun&st=4faty7yz&dl=1",
