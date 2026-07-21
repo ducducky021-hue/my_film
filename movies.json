@@ -6,5 +6,19 @@
     "thumbnail": "https://i.postimg.cc/yNjfmKSD/nobita-va-nc-nhat-nguyen-thuy.jpg",
     "videoUrl": "https://www.dropbox.com/scl/fi/739yeadfpuc4uuojvus31/YTDown.com_YouTube_Doraemon-va-Nobita-Nuoc-Nhat-Thoi-Nguyen_Media_Sp6U-jSULkc_001_720p.mp4?rlkey=6iar6b6pbd1jotlsruqnmaxun&st=4faty7yz&dl=1",
     "description": "Cuộc hành trình của nhóm bạn Doraemon phiêu lưu về nước Nhật thời nguyên thuỷ"
+  },
+  {
+    "id": 2,
+    "title": "Gacha vô hạn cấp 9999",
+    "category": "Hoạt hình",
+    "thumbnail": "https://i.postimg.cc/jSVG79sQ/gacha-vo-han.jpg",
+    "description": "Bị phản bội nơi sâu thẳm hầm ngục, nhưng nhờ thiên phú vô hạn GACHA tôi chiêu mộ các đồng đội cấp 9999 để trả thù các đồng đội cũ và cả thế giới. Đáng đời chúng!!!",
+    "isSeries": true,
+    "episodes": [
+      { "episodeNum": 1, "url": "https://www.dropbox.com/scl/fi/3h11tv5lzjjt8asdtfhgb/Gacha-V-H-n-T-p-01-Vi-t-sub.mp4?rlkey=wo7dkejthyr41x4ym9yjgy1kg&st=ggc8eovx&dl=1" },
+      { "episodeNum": 2, "url": "https://www.dropbox.com/scl/fi/lslfdjzktgtdy4x173mor/Gacha-V-H-n-T-p-02-Vi-t-sub.mp4?rlkey=xorv52p5sgpkoyglgvypu0baj&st=qjjdclic&dl=1" },
+      { "episodeNum": 3, "url": "https://www.dropbox.com/scl/fi/ahidc8eymyl6i8hqjb7rw/Gacha-V-H-n-T-p-03-Vi-t-sub.mp4?rlkey=8au38v2qr4u7wphqr5gmpex7a&st=0xeolmi6&dl=1" }
+    ]
   }
 ]
+
